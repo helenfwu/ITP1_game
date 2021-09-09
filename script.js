@@ -371,9 +371,7 @@ class NPC {
     }
   }
 }
-function preload() {
-  imgStar = loadImage("./assets/star.png");
-}
+
 
 function setup() {
   // bgm.play();
