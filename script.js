@@ -168,13 +168,7 @@ class Collectable {
   }
   draw() {
     fill(0, 255, 255);
-    image(
-      imgStar,
-      this.x_pos - 50 * this.size,
-      this.y_pos - 50 * this.size,
-      75 * this.size,
-      70 * this.size
-    );
+    ellipse(this.x_pos, this.y_post, 50);
   }
   check() {
     if (dist(gameChar_world_x, gameChar_y, this.x_pos, this.y_pos) < 35) {
